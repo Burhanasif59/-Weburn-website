@@ -1,0 +1,132 @@
+#contactPageHeaderPic{
+	height: 50vh !important;
+	height: calc(var(--vh, 1vh) * 50) !important;
+	background: linear-gradient(rgba(0, 0 ,0 , .70), rgba(0, 0 ,0 , .70)),url('assets/pictures/main.webp');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+	min-height: 300px;
+	max-height: 600px;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+}
+
+.contactPageHeaderPicContentText{
+	color: #fff;
+	text-align: center;
+}
+
+#contactPageHeaderPicContentTopText{
+	position: relative;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-size: 60px;
+	font-weight: 300;
+}
+
+#contactPageHeaderPicContentMiddleText{
+	font-size: 21px;
+	line-height: 21px;
+	padding-top: 12px;
+	font-weight: 400;
+	font-family: 'Lato', sans-serif;
+}
+
+
+#contactPageHeader{
+	width: 100%;
+	text-align: center;
+	margin-top: 80px;
+}
+
+#contactPageHeaderContentHead{
+	color: #46363B;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 44px;
+}
+
+#contactPageHeaderContentSub{
+	color: #888888;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	margin-top: 25px;
+}
+
+#contactPageForm{
+	margin-top: 100px;
+}
+
+.formInput{
+	float: left;
+	margin-bottom : 30px;
+	font-weight: 500;
+    padding: 15px 25px;
+    border: 1px solid #bfbfbf !important;
+    outline: 0;
+    border-radius: 5px;
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    border: none; /* Here */
+    transition: border .3s;
+    width: 45%;
+
+}
+
+.formInput:focus, .formInput:active{
+	border: 1px solid #00E1D9 !important;
+}
+
+#name{
+	margin-left: 3%;
+}
+
+#email{
+	margin-left: 2%;
+}
+
+
+
+.formInputMessage{
+	height: 220px;
+	resize: none;
+	margin-left: 3%;
+	width: 92%;
+}
+
+#contactPageHeaderButton {
+	position: relative;
+	display: block;
+	cursor: pointer;
+	outline: none;
+	border: 0;
+	vertical-align: middle;
+	text-decoration: none;
+	font-size: inherit;
+	font-family: 'Lato', sans-serif;
+	position: relative;
+    text-transform: uppercase;
+    width: 250px;
+    transition:  all 0.3s ease 0s;
+    margin-left: 3%;
+    font-size: 20px;
+}
+ #contactPageHeaderButton {
+
+	 font-weight: 400;
+	 color: #fff;
+	 padding: 1.25rem 2rem;
+	 background: #00E1D9;
+	 text-transform: uppercase;
+	 margin-bottom: 30px;
+}
+
+ #contactPageHeaderButton:hover, #contactPageHeaderButton:focus, #contactPageHeaderButton:active {
+ 	border-radius: 50px;
+}
+
+
