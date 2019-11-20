@@ -1,3 +1,114 @@
+
+#aboutPageHeaderPic{
+	height: 50vh !important;
+	height: calc(var(--vh, 1vh) * 50) !important;
+	background: linear-gradient(rgba(0, 0 ,0 , .70), rgba(0, 0 ,0 , .70)),url('assets/pictures/main.webp');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+	min-height: 300px;
+	max-height: 600px;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+}
+
+.aboutPageHeaderPicContentText{
+	color: #fff;
+	text-align: center;
+}
+
+#aboutPageHeaderPicContentTopText{
+	position: relative;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-size: 60px;
+	font-weight: 300;
+}
+
+#aboutPageHeaderPicContentMiddleText{
+	font-size: 21px;
+	line-height: 21px;
+	padding-top: 12px;
+	font-weight: 400;
+	font-family: 'Lato', sans-serif;
+}
+
+
+
+#aboutPageHeaderContent{
+	margin-top: 50px;
+}
+
+#aboutPageHeaderContentTop{
+	font-family: 'Lato',sans-serif;
+	color: #46363B;
+	font-weight: 300;
+	font-size: 37px;
+	margin-bottom: 15px;
+}
+
+
+#aboutPageHeaderContentText{
+	font-family: 'Lato',sans-serif;
+	color: #8888;
+	font-weight: 400;
+}
+
+.aboutPagePicture{
+	width: 50%;
+	float: left;
+	margin: 0;
+}
+
+
+#aboutPagePictureDiv{
+	margin-top: 50px;
+}
+
+#aboutPageAboutPictureDiv{
+	margin-top: 120px;
+	margin-bottom: 50px;
+}
+
+#aboutPageAboutPictureDiv img{
+	width: 100%;
+}
+
+#aboutPageAboutHeaderContent{
+	margin-top: 120px;
+}
+
+#aboutPageAboutHeaderContentTop{
+	font-family: 'Lato',sans-serif;
+	color: #46363B;
+	font-weight: 300;
+	font-size: 37px;
+	margin-bottom: 15px;
+}
+
+#aboutPageAboutHeaderContentText{
+	font-family: 'Lato',sans-serif;
+	color: #8888;
+	font-weight: 400;
+}
+
+
+/*----------------------------------------------------------Contact page*/
+/*----------------------------------------------------------Contact page*/
+/*----------------------------------------------------------Contact page*/
+/*----------------------------------------------------------Contact page*/
+/*----------------------------------------------------------Contact page*/
+/*----------------------------------------------------------Contact page*/
+/*----------------------------------------------------------Contact page*/
+/*----------------------------------------------------------Contact page*/
+/*----------------------------------------------------------Contact page*/
+
+
+
 #contactPageHeaderPic{
 	height: 50vh !important;
 	height: calc(var(--vh, 1vh) * 50) !important;
@@ -130,3 +241,16 @@
 }
 
 
+@media only screen and (max-width: 768px){
+
+	.formInput{
+		width: 100%;
+		float: none;
+		margin-left: 0 !important;
+	}
+
+	#contactPageHeaderButton{
+		margin-left: 0 !important;
+	}
+
+}
