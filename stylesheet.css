@@ -1,3 +1,81 @@
+#mainPageIntroText{
+	text-align: center;
+	color: #46363B;
+	font-family : 'Lato' ,sans-serif;
+	font-weight: 400;
+	margin-top: 60px;
+}
+
+#mainPageProductsSection{
+	margin-top: 80px;
+}
+
+.mainPageProductsImages{
+	width: 70%;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.mainPageProductsText{
+	text-align: center;
+	color: #46363B;
+	font-family : 'Lato' ,sans-serif;
+	font-weight: 400;
+	margin-top: 30px;
+}
+
+.mainPageProductsSubText{
+	text-align: center;
+	color: #888888;
+	font-family : 'Lato' ,sans-serif;
+	font-weight: 300;
+	margin-top: 10px;
+}
+
+.mainPageProductsButton {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	display: block;
+	cursor: pointer;
+	outline: none;
+	border: 0;
+	vertical-align: middle;
+	text-decoration: none;
+	font-size: inherit;
+	font-family: 'Lato', sans-serif;
+	position: relative;
+    text-transform: uppercase;
+    width: 200px;
+    height: 50px;
+    transition:  all 0.3s ease 0s;
+    font-size: 13px;
+}
+ .mainPageProductsButton {
+
+	 font-weight: 600;
+	 color: #fff;
+	 background: #00E1D9;
+	 text-transform: uppercase;
+	 margin-bottom: 30px;
+	 margin-top: 20px;
+}
+
+ .mainPageProductsButton:hover, .mainPageProductsButton:focus, .mainPageProductsButton:active {
+ 	border-radius: 50px;
+}
+
+
+/*----------------------------------------------------------Contact page*/
+/*----------------------------------------------------------Contact page*/
+/*----------------------------------------------------------Contact page*/
+/*----------------------------------------------------------Contact page*/
+/*----------------------------------------------------------Contact page*/
+/*----------------------------------------------------------Contact page*/
+/*----------------------------------------------------------Contact page*/
+/*----------------------------------------------------------Contact page*/
+/*----------------------------------------------------------Contact page*/
 
 #aboutPageHeaderPic{
 	height: 50vh !important;
